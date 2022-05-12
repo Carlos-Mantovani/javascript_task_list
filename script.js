@@ -35,7 +35,7 @@ function addTaskAfterClick() {
     }
 }
 
-function addTasAfterKeypress(e) {
+function addTaskAfterKeypress(e) {
     if (checkInputLength() && e.keyCode == 13) {
         createTask();
     }
@@ -43,6 +43,6 @@ function addTasAfterKeypress(e) {
 
 button.addEventListener('click', addTaskAfterClick);
 
-userInput.addEventListener('keypress', addTasAfterKeypress);
+userInput.addEventListener('keypress', addTaskAfterKeypress);
 
 
