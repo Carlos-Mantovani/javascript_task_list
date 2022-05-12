@@ -1,0 +1,44 @@
+body, button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #38B031;
+}
+
+h1 {
+    font-size: 36px;
+    width: 200px;
+    text-align: center;
+}
+
+#enter {
+    font-size: 18px;
+    padding: 6px;
+}
+
+#userinput {
+    padding: 6px;
+    font-size: 18px;
+}
+
+.task {
+    font-size: 18px;
+    margin: 6px;
+}
+
+.del_btn {
+    margin-left: 14px;
+    padding: 6px;
+    color: #FFFFFF;
+    background-color: #FC4147;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+}
+
+.del_btn:hover {
+    background-color: #CF343E;
+}
